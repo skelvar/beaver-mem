@@ -23,7 +23,7 @@ A team can share agent-learned failures, fixes, and decisions the same way they 
 - [x] Name: `beaver-mem`
 - [x] Local scaffold at `D:\work\beaver-mem`
 - [x] Vision + storage draft
-- [ ] This roadmap committed and pushed to `skelvar/beaver-mem`
+- [x] This roadmap committed and pushed to `skelvar/beaver-mem`
 - [ ] Event schema v0 frozen in `docs/STORAGE.md` (fields, types, supersedes, visibility)
 - [ ] Union-merge rules written (by `id`, sort, duplicate verify)
 - [ ] Non-goals explicit (no cloud SaaS v0, no vector DB as source of truth)
@@ -121,3 +121,4 @@ A team can share agent-learned failures, fixes, and decisions the same way they 
 ## Suggested first implementation slice
 
 After this doc is on GitHub: freeze schema → `init` + `append` + `brief` + `verify` + merge test → then MCP brief injection.
+
