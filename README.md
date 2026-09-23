@@ -4,17 +4,19 @@ Team-native, mergeable memory for AI coding agents.
 
 Local-first capture with a beautiful viewer. Promote durable judgments (failures, fixes, decisions) into an append-only log that travels with the repo — reviewable in PRs, mergeable across forks, shared across humans and agents.
 
-## Why beaver-mem
+## The idea
 
-claude-mem owns solo episodic capture. projectmem owns judgment events for one developer. beaver-mem aims at the gap between them:
+claude-mem owns solo episodic capture. projectmem owns judgment events for one developer. beaver-mem targets the gap:
 
 - a polished local viewer (not just a debug firehose)
-- multi-human team sync
-- fork-mergeable append-only memory (no SQLite-as-source-of-truth)
+- multi-human team sync via git
+- fork-mergeable append-only memory (JSONL is source of truth; SQLite is a local cache only)
+
+Teammates get memory **files** by pulling the repo even without installing beaver-mem. Agent features (inject, promote, precheck, viewer) need the tool installed.
 
 ## Status
 
-Greenfield scaffold. Storage core TBD (leaning JSONL-in-repo + union merge).
+Greenfield. Roadmap: [docs/ROADMAP.md](docs/ROADMAP.md). Vision: [docs/VISION.md](docs/VISION.md). Storage: [docs/STORAGE.md](docs/STORAGE.md).
 
 ## Layout (planned)
 
@@ -30,4 +32,4 @@ beaver-mem/
 
 ## Name
 
-beaver-mem — the beaver mascot + memory. Deliberately not named after other agent tools that already own crowded brands.
+`beaver-mem` — beaver mascot + memory. Avoids collisions with bare `beaver` / `kerf` / Bashar's existing `offcut` product.

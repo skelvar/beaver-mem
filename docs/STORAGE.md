@@ -23,3 +23,6 @@ Each line is one immutable event, e.g.:
 
 Merge rule: union of lines by `id`, sort by `id`. Never rewrite history.
 Projections (brief, failure index, SQLite cache, embeddings) rebuild from the log.
+
+See also: [ROADMAP.md](ROADMAP.md), [IDEA.md](IDEA.md).
+
