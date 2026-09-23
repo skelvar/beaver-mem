@@ -1,12 +1,12 @@
-﻿# offcut
+﻿# beaver-mem
 
 Team-native, mergeable memory for AI coding agents.
 
 Local-first capture with a beautiful viewer. Promote durable judgments (failures, fixes, decisions) into an append-only log that travels with the repo — reviewable in PRs, mergeable across forks, shared across humans and agents.
 
-## Why offcut
+## Why beaver-mem
 
-claude-mem owns solo episodic capture. projectmem owns judgment events for one developer. offcut aims at the gap between them:
+claude-mem owns solo episodic capture. projectmem owns judgment events for one developer. beaver-mem aims at the gap between them:
 
 - a polished local viewer (not just a debug firehose)
 - multi-human team sync
@@ -19,7 +19,7 @@ Greenfield scaffold. Storage core TBD (leaning JSONL-in-repo + union merge).
 ## Layout (planned)
 
 ```
-offcut/
+beaver-mem/
   packages/
     core/      # event log, merge, promote, brief
     viewer/    # localhost UI
@@ -30,4 +30,4 @@ offcut/
 
 ## Name
 
-Reuses the stale `offcut` product name on purpose: useful leftover pieces from real work.
+beaver-mem — the beaver mascot + memory. Deliberately not named after other agent tools that already own crowded brands.

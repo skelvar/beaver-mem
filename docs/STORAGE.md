@@ -1,6 +1,6 @@
 ﻿# Event log (draft)
 
-Source of truth is append-only JSONL under `.offcut/log/YYYY/MM/DD.jsonl`.
+Source of truth is append-only JSONL under `.beaver-mem/log/YYYY/MM/DD.jsonl`.
 
 Each line is one immutable event, e.g.:
 

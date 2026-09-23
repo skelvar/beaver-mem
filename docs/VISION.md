@@ -11,7 +11,7 @@ Teams still lose context across humans, agents, and forks.
 
 ## Product
 
-offcut = beautiful local memory studio + reviewable shared memory that merges like code.
+beaver-mem = beautiful local memory studio + reviewable shared memory that merges like code.
 
 ### Pillars
 
